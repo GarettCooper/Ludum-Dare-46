@@ -1,0 +1,825 @@
+fileFormatVersion: 2
+guid: ba732819b1238e24eb754c4e23786ef4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7313519014635196486
+    second: Building_Tile_Map_0
+  - first:
+      213: 7435968937792014692
+    second: Building_Tile_Map_1
+  - first:
+      213: -8641713621266925872
+    second: Building_Tile_Map_2
+  - first:
+      213: -1097788046565171744
+    second: Building_Tile_Map_3
+  - first:
+      213: -2781954236338483342
+    second: Building_Tile_Map_4
+  - first:
+      213: 2124807882049415452
+    second: Building_Tile_Map_5
+  - first:
+      213: 6685898470780523599
+    second: Building_Tile_Map_6
+  - first:
+      213: 4048542931975809422
+    second: Building_Tile_Map_7
+  - first:
+      213: -6764417202563321991
+    second: Building_Tile_Map_8
+  - first:
+      213: -568210725321134247
+    second: Building_Tile_Map_9
+  - first:
+      213: -8877189583115301637
+    second: Building_Tile_Map_10
+  - first:
+      213: -7582102528052363855
+    second: Building_Tile_Map_11
+  - first:
+      213: 8298786572510225694
+    second: Building_Tile_Map_12
+  - first:
+      213: -2298972140822758992
+    second: Building_Tile_Map_13
+  - first:
+      213: -5849030106912173185
+    second: Building_Tile_Map_14
+  - first:
+      213: 8951809006897771787
+    second: Building_Tile_Map_15
+  - first:
+      213: 7324538591543583704
+    second: Building_Tile_Map_16
+  - first:
+      213: -7299699331722347351
+    second: Building_Tile_Map_17
+  - first:
+      213: 8943616700052439362
+    second: Building_Tile_Map_18
+  - first:
+      213: 3698929956461578932
+    second: Building_Tile_Map_19
+  - first:
+      213: -4942930533360970826
+    second: Building_Tile_Map_20
+  - first:
+      213: 6668659997386643106
+    second: Building_Tile_Map_21
+  - first:
+      213: -4286841283258395672
+    second: Building_Tile_Map_22
+  - first:
+      213: -8774027863244545400
+    second: Building_Tile_Map_23
+  - first:
+      213: -1402791485201213448
+    second: Building_Tile_Map_24
+  - first:
+      213: -2774353268672184036
+    second: Building_Tile_Map_25
+  - first:
+      213: -1509872561711429914
+    second: Building_Tile_Map_26
+  - first:
+      213: 7514651320114154903
+    second: Building_Tile_Map_27
+  - first:
+      213: -2550512870497436417
+    second: Building_Tile_Map_28
+  - first:
+      213: 386100808633398937
+    second: Building_Tile_Map_29
+  - first:
+      213: 7565945248042206492
+    second: Building_Tile_Map_30
+  - first:
+      213: 6541985807809229611
+    second: Building_Tile_Map_31
+  - first:
+      213: 615567040242337567
+    second: Building_Tile_Map_32
+  - first:
+      213: -587273562744598351
+    second: Building_Tile_Map_33
+  - first:
+      213: 8010119497554403818
+    second: Building_Tile_Map_34
+  - first:
+      213: -5888025013970259558
+    second: Building_Tile_Map_35
+  - first:
+      213: 8346844871919493100
+    second: Building_Tile_Map_36
+  - first:
+      213: 2699346046853842513
+    second: Building_Tile_Map_37
+  - first:
+      213: -8650947898076688293
+    second: Building_Tile_Map_38
+  - first:
+      213: -7172158328179996804
+    second: Building_Tile_Map_39
+  - first:
+      213: 4018669261153711151
+    second: Building_Tile_Map_40
+  - first:
+      213: -8345767943247687038
+    second: Building_Tile_Map_41
+  - first:
+      213: -3011436717489945944
+    second: Building_Tile_Map_42
+  - first:
+      213: 8633409208133396310
+    second: Building_Tile_Map_43
+  - first:
+      213: 2800588825476281093
+    second: Building_Tile_Map_44
+  - first:
+      213: -2549793183520124432
+    second: Building_Tile_Map_45
+  - first:
+      213: 1073985523172384945
+    second: Building_Tile_Map_46
+  - first:
+      213: -3744102550400169766
+    second: Building_Tile_Map_47
+  - first:
+      213: 8543519965866664084
+    second: Building_Tile_Map_48
+  - first:
+      213: 2304997106287091810
+    second: Building_Tile_Map_49
+  - first:
+      213: 7680294545948196703
+    second: Building_Tile_Map_50
+  - first:
+      213: -5567477568566064372
+    second: Building_Tile_Map_51
+  - first:
+      213: 8384044621435427148
+    second: Building_Tile_Map_52
+  - first:
+      213: -8849335978865402350
+    second: Building_Tile_Map_53
+  - first:
+      213: -1485235343237562093
+    second: Building_Tile_Map_54
+  - first:
+      213: -7573309777241671735
+    second: Building_Tile_Map_55
+  - first:
+      213: 4658645782045432805
+    second: Building_Tile_Map_56
+  - first:
+      213: -248520407872751195
+    second: Building_Tile_Map_57
+  - first:
+      213: 170442797679549123
+    second: Building_Tile_Map_58
+  - first:
+      213: 7337050688362217619
+    second: Building_Tile_Map_59
+  - first:
+      213: -7485090189144198221
+    second: Building_Tile_Map_60
+  - first:
+      213: 3592406752366997232
+    second: Building_Tile_Map_61
+  - first:
+      213: -1571652980441478222
+    second: Building_Tile_Map_62
+  - first:
+      213: 6919931673562739216
+    second: Building_Tile_Map_63
+  - first:
+      213: 5826376970676946557
+    second: Building_Tile_Map_64
+  - first:
+      213: -1005403983959788903
+    second: Building_Tile_Map_65
+  - first:
+      213: -2813895798048406235
+    second: Building_Tile_Map_66
+  - first:
+      213: 1718692540735840019
+    second: Building_Tile_Map_67
+  - first:
+      213: 6213796976136748909
+    second: Building_Tile_Map_68
+  - first:
+      213: 3772531990428489837
+    second: Building_Tile_Map_69
+  - first:
+      213: 1186075307524919847
+    second: Building_Tile_Map_70
+  - first:
+      213: -7215845956569347418
+    second: Building_Tile_Map_71
+  - first:
+      213: 2603103172294700140
+    second: Building_Tile_Map_72
+  - first:
+      213: -4140693018538283463
+    second: Building_Tile_Map_73
+  - first:
+      213: 7259849896400264553
+    second: Building_Tile_Map_74
+  - first:
+      213: 4235887735530088068
+    second: Building_Tile_Map_75
+  - first:
+      213: -757531741977535746
+    second: Building_Tile_Map_76
+  - first:
+      213: -7399305168900942916
+    second: Building_Tile_Map_77
+  - first:
+      213: -7865469968297475267
+    second: Building_Tile_Map_78
+  - first:
+      213: 2566598881770092724
+    second: Building_Tile_Map_79
+  - first:
+      213: -2813140985935206511
+    second: Building_Tile_Map_80
+  - first:
+      213: -3513443324480635144
+    second: Building_Tile_Map_81
+  - first:
+      213: -1554080262208787838
+    second: Building_Tile_Map_82
+  - first:
+      213: 3969301478353587280
+    second: Building_Tile_Map_83
+  - first:
+      213: 1580739584696173239
+    second: Building_Tile_Map_84
+  - first:
+      213: 1524365028449777
+    second: Building_Tile_Map_85
+  - first:
+      213: -8819803809377796158
+    second: Building_Tile_Map_86
+  - first:
+      213: -7281262465608450011
+    second: Building_Tile_Map_87
+  - first:
+      213: 7908874012729247318
+    second: Building_Tile_Map_88
+  - first:
+      213: 1946007758665514885
+    second: Building_Tile_Map_89
+  - first:
+      213: 2823979330428826177
+    second: Building_Tile_Map_90
+  - first:
+      213: -1152072747549150195
+    second: Building_Tile_Map_91
+  - first:
+      213: -1219789499727784928
+    second: Building_Tile_Map_92
+  - first:
+      213: -1660315697918395005
+    second: Building_Tile_Map_93
+  - first:
+      213: -8902994566491522998
+    second: Building_Tile_Map_94
+  - first:
+      213: 2972080755529194815
+    second: Building_Tile_Map_95
+  - first:
+      213: -2067945687271034648
+    second: Building_Tile_Map_96
+  - first:
+      213: -6098254801497305220
+    second: Building_Tile_Map_97
+  - first:
+      213: -7577605327162309258
+    second: Building_Tile_Map_98
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Building_Tile_Map_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfaa927439218a90800000000000000
+      internalID: -7313519014635196486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4698ee9f95ed13760800000000000000
+      internalID: 7435968937792014692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6fab94f37721880800000000000000
+      internalID: -8641713621266925872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed10d5869fd3c0f0800000000000000
+      internalID: -1097788046565171744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 450
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fc6a98c538469d0800000000000000
+      internalID: -2781954236338483342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c196181d285dc7d10800000000000000
+      internalID: 2124807882049415452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44533b5c3519cc50800000000000000
+      internalID: 6685898470780523599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e892656b8505f2830800000000000000
+      internalID: 4048542931975809422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97feba8c466ff12a0800000000000000
+      internalID: -6764417202563321991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95faaa71b5f4d18f0800000000000000
+      internalID: -568210725321134247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc4d968b13edc480800000000000000
+      internalID: -8877189583115301637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdf8d42ce5f6c690800000000000000
+      internalID: -7582102528052363855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15e0493b663b2370800000000000000
+      internalID: 8298786572510225694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b97db5b4096810e0800000000000000
+      internalID: -2298972140822758992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 150
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f735fe47b1214dea0800000000000000
+      internalID: -5849030106912173185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05b841fcd63b3c70800000000000000
+      internalID: 8951809006897771787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3689cba0df5a560800000000000000
+      internalID: 7324538591543583704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac788d122242ba90800000000000000
+      internalID: -7299699331722347351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24180edd00c1e1c70800000000000000
+      internalID: 8943616700052439362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building_Tile_Map_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba81f7923d355330800000000000000
+      internalID: 3698929956461578932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 28f6aad272cc2d545ab0386abbdfff49, type: 3}
+      name: _NormalMap
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
