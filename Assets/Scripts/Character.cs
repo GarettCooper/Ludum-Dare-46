@@ -34,6 +34,8 @@ public class Character : MonoBehaviour
 
     private float airTime = 0f;
 
+    private bool jumped = false;
+
     [UsedImplicitly]
     private void Awake() {
         controls = new ControlsSchemes();
@@ -55,11 +57,13 @@ public class Character : MonoBehaviour
         animator.SetFloat("Horizontal Speed", Mathf.Abs(rigidbody.velocity.x));
         animator.SetFloat("Vertical Speed", rigidbody.velocity.y);
 
-        if (groundDetector.OnGround) {
+        if (groundDetector.OnGround && !jumped) {
             airTime = 0f;
         } else {
             airTime += Time.deltaTime;
         }
+
+        jumped = false;
     }
 
     [UsedImplicitly]
@@ -75,10 +79,12 @@ public class Character : MonoBehaviour
     private void Jump(InputAction.CallbackContext ctx) {
         if (groundDetector.OnGround || airTime < 0.25f) {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, rigidbody.velocity.y + jumpForce);
-
+            Debug.Log($"Jump, OnGround: {groundDetector.OnGround} airTime: {airTime}");
             if (airTime < 0.01) {
                 animator.SetTrigger("Jump");
             }
+
+            jumped = true;
         }
     }
 
