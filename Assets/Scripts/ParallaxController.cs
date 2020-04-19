@@ -5,6 +5,7 @@ using UnityEngine;
 public class ParallaxController : MonoBehaviour {
 
     [SerializeField] private Camera targetCamera;
+    [Range(0, 1)]
     [SerializeField] private float distanceFromCamera;
 
     private Vector3 previousCameraPosition;
@@ -16,7 +17,7 @@ public class ParallaxController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        transform.Translate((targetCamera.transform.position - previousCameraPosition) * (1f / distanceFromCamera));
+        transform.Translate((targetCamera.transform.position - previousCameraPosition) * distanceFromCamera);
         previousCameraPosition = targetCamera.transform.position;
     }
 }
