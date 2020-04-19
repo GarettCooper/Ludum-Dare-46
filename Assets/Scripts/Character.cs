@@ -27,6 +27,8 @@ public class Character : MonoBehaviour
     private Egg egg;
     [SerializeField]
     private Transform eggRespawnPosition;
+    [SerializeField]
+    private AudioSource musicSource;
 
     private new Rigidbody2D rigidbody;
 
@@ -40,6 +42,7 @@ public class Character : MonoBehaviour
     private void Awake() {
         controls = new ControlsSchemes();
         controls.Primary.Jump.performed += Jump;
+        controls.Primary.Mute.performed += Mute;
     }
 
     // Start is called before the first frame update
@@ -86,6 +89,10 @@ public class Character : MonoBehaviour
 
             jumped = true;
         }
+    }
+
+    private void Mute(InputAction.CallbackContext obj) {
+        musicSource.mute = !musicSource.mute;
     }
 
     private ContactPoint2D[] contactPoints =  new ContactPoint2D[10];

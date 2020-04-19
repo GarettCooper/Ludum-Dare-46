@@ -33,6 +33,14 @@ public class @ControlsSchemes : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Mute"",
+                    ""type"": ""Button"",
+                    ""id"": ""d9ff9901-502d-4b8b-ad89-e41d2f62289e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -134,6 +142,28 @@ public class @ControlsSchemes : IInputActionCollection, IDisposable
                     ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9a4cdd38-dfc9-419f-9507-1e14a3a0a834"",
+                    ""path"": ""<Keyboard>/m"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Mute"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3635e8d3-55d9-43c7-bbb7-dd7858847d27"",
+                    ""path"": ""<Gamepad>/select"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Mute"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -166,6 +196,7 @@ public class @ControlsSchemes : IInputActionCollection, IDisposable
         m_Primary = asset.FindActionMap("Primary", throwIfNotFound: true);
         m_Primary_HorizontalMovement = m_Primary.FindAction("Horizontal Movement", throwIfNotFound: true);
         m_Primary_Jump = m_Primary.FindAction("Jump", throwIfNotFound: true);
+        m_Primary_Mute = m_Primary.FindAction("Mute", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -217,12 +248,14 @@ public class @ControlsSchemes : IInputActionCollection, IDisposable
     private IPrimaryActions m_PrimaryActionsCallbackInterface;
     private readonly InputAction m_Primary_HorizontalMovement;
     private readonly InputAction m_Primary_Jump;
+    private readonly InputAction m_Primary_Mute;
     public struct PrimaryActions
     {
         private @ControlsSchemes m_Wrapper;
         public PrimaryActions(@ControlsSchemes wrapper) { m_Wrapper = wrapper; }
         public InputAction @HorizontalMovement => m_Wrapper.m_Primary_HorizontalMovement;
         public InputAction @Jump => m_Wrapper.m_Primary_Jump;
+        public InputAction @Mute => m_Wrapper.m_Primary_Mute;
         public InputActionMap Get() { return m_Wrapper.m_Primary; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -238,6 +271,9 @@ public class @ControlsSchemes : IInputActionCollection, IDisposable
                 @Jump.started -= m_Wrapper.m_PrimaryActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_PrimaryActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_PrimaryActionsCallbackInterface.OnJump;
+                @Mute.started -= m_Wrapper.m_PrimaryActionsCallbackInterface.OnMute;
+                @Mute.performed -= m_Wrapper.m_PrimaryActionsCallbackInterface.OnMute;
+                @Mute.canceled -= m_Wrapper.m_PrimaryActionsCallbackInterface.OnMute;
             }
             m_Wrapper.m_PrimaryActionsCallbackInterface = instance;
             if (instance != null)
@@ -248,6 +284,9 @@ public class @ControlsSchemes : IInputActionCollection, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @Mute.started += instance.OnMute;
+                @Mute.performed += instance.OnMute;
+                @Mute.canceled += instance.OnMute;
             }
         }
     }
@@ -265,5 +304,6 @@ public class @ControlsSchemes : IInputActionCollection, IDisposable
     {
         void OnHorizontalMovement(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnMute(InputAction.CallbackContext context);
     }
 }
