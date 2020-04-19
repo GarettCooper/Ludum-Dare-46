@@ -21,6 +21,12 @@ public class Character : MonoBehaviour
 
     [SerializeField]
     private GroundDetector groundDetector;
+    [SerializeField]
+    private Checkpoint lastCheckpoint;
+    [SerializeField]
+    private Egg egg;
+    [SerializeField]
+    private Transform eggRespawnPosition;
 
     private new Rigidbody2D rigidbody;
 
@@ -87,5 +93,17 @@ public class Character : MonoBehaviour
                 transform.Translate(Vector2.up * 0.05f);
             }
         }
+    }
+
+    internal void SetCheckpoint(Checkpoint checkpoint) {
+        lastCheckpoint = checkpoint;
+    }
+
+    internal void ResetPlayer() {
+        Debug.Log("Player Reset!");
+        transform.position = lastCheckpoint.transform.position;
+        rigidbody.velocity = Vector2.zero;
+        egg.transform.position = eggRespawnPosition.position;
+        egg.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 }

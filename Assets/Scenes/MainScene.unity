@@ -1238,33 +1238,42 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
     - position: {x: 44.089832, y: 3.677731, z: 0}
-      leftTangent: {x: -6.6092453, y: 0.7843089, z: 0}
-      rightTangent: {x: 0.012176514, y: -0.0014448166, z: 0}
+      leftTangent: {x: -3.7089996, y: -1.3527153, z: 0}
+      rightTangent: {x: 0.005176544, y: 0.001887083, z: 0}
       mode: 1
       height: 1
       bevelCutoff: 0
       bevelSize: 0
       spriteIndex: 0
       corner: 1
-    - position: {x: 66.67348, y: -0.12547398, z: 0}
-      leftTangent: {x: -1.6976547, y: 0.3650632, z: 0}
-      rightTangent: {x: 2.2010803, y: -0.47331953, z: 0}
+    - position: {x: 51.489395, y: 7.646268, z: 0}
+      leftTangent: {x: -4.0912094, y: -0.98860645, z: 0}
+      rightTangent: {x: 5.021759, y: 1.2135649, z: 0}
       mode: 1
       height: 1
       bevelCutoff: 0
       bevelSize: 0
       spriteIndex: 0
       corner: 1
-    - position: {x: 92.18457, y: -1.9764156, z: 0}
-      leftTangent: {x: -6.3359528, y: 3.199521, z: 0}
-      rightTangent: {x: 8.1171875, y: -4.0989265, z: 0}
+    - position: {x: 68.57652, y: 9.442425, z: 0}
+      leftTangent: {x: -3.6539536, y: -1.1602573, z: 0}
+      rightTangent: {x: 1.8140335, y: 0.5760174, z: 0}
       mode: 1
       height: 1
       bevelCutoff: 0
       bevelSize: 0
       spriteIndex: 0
       corner: 1
-    - position: {x: 117.990555, y: -11.816248, z: 0}
+    - position: {x: 98.980415, y: 15.134541, z: 0}
+      leftTangent: {x: -6.3359528, y: 3.1995258, z: 0}
+      rightTangent: {x: 8.1171875, y: -4.0989113, z: 0}
+      mode: 1
+      height: 1
+      bevelCutoff: 0
+      bevelSize: 0
+      spriteIndex: 0
+      corner: 1
+    - position: {x: 98.51264, y: -12.259935, z: 0}
       leftTangent: {x: 3.4378967, y: 0.8161831, z: 0}
       rightTangent: {x: -8.540344, y: -2.0275478, z: 0}
       mode: 1
@@ -1355,8 +1364,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: eb191a06cda642145897d691a774e399, type: 3}
   - {fileID: 21300000, guid: eb191a06cda642145897d691a774e399, type: 3}
   m_LocalAABB:
-    m_Center: {x: 55.22385, y: -5.0368843, z: -0.00005015}
-    m_Extent: {x: 63.323883, y: 9.278807, z: 0.00005015}
+    m_Center: {x: 47.701557, y: 0.8602495, z: -0.00005015}
+    m_Extent: {x: 55.80159, y: 15.1759405, z: 0.00005015}
 --- !u!1 &498222670
 GameObject:
   m_ObjectHideFlags: 0
