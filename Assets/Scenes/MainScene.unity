@@ -4538,6 +4538,10 @@ PrefabInstance:
       propertyPath: jumpForce
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 1004175335943516266, guid: 99f9abe5b67b16d4d83ec055df338fbb, type: 3}
+      propertyPath: popupHeight
+      value: 0.85
+      objectReference: {fileID: 0}
     - target: {fileID: 1089329601686547437, guid: 99f9abe5b67b16d4d83ec055df338fbb, type: 3}
       propertyPath: m_Layer
       value: 0

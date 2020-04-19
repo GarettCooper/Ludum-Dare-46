@@ -12,6 +12,8 @@ public class Character : MonoBehaviour
     private float maxSpeed = 1f;
     [SerializeField]
     private float jumpForce = 10f;
+    [SerializeField]
+    private float popupHeight = 10f;
 
 
     private ControlsSchemes controls;
@@ -74,4 +76,16 @@ public class Character : MonoBehaviour
         }
     }
 
+    private ContactPoint2D[] contactPoints =  new ContactPoint2D[10];
+    private void OnCollisionStay2D(Collision2D collision) {
+        int contactsCount = collision.GetContacts(contactPoints);
+
+        for (int i = 0; i < contactsCount; i++) {
+
+            if (contactPoints[i].normal.x < 0 && contactPoints[i].normal.y == 0 && (contactPoints[i].point - (Vector2) transform.position).y < popupHeight) {
+                Debug.Log("Popup");
+                transform.Translate(Vector2.up * 0.05f);
+            }
+        }
+    }
 }
