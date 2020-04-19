@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 5186048642824326836}
   - component: {fileID: 5186048642824326841}
   - component: {fileID: 5186048642824326842}
+  - component: {fileID: 4342242177791945922}
   m_Layer: 0
   m_Name: Egg
-  m_TagString: Untagged
+  m_TagString: Egg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,3 +122,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4342242177791945922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186048642824326837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef09a73990fd36c48b901b4743a8c669, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eggTime: 2
