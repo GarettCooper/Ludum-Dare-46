@@ -34,8 +34,7 @@ public class Character : MonoBehaviour
 
     // Start is called before the first frame update
     [UsedImplicitly]
-    private void Start()
-    {
+    private void Start() {
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
