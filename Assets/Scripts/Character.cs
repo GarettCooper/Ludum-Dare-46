@@ -15,6 +15,7 @@ public class Character : MonoBehaviour
 
 
     private ControlsSchemes controls;
+    private Animator animator;
 
     [SerializeField]
     private GroundDetector groundDetector;
@@ -36,12 +37,16 @@ public class Character : MonoBehaviour
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     [UsedImplicitly]
     private void Update() {
         rigidbody.velocity = new Vector2(controls.Primary.HorizontalMovement.ReadValue<float>() * maxSpeed, rigidbody.velocity.y);
+
+        animator.SetFloat("Horizontal Speed", Mathf.Abs(rigidbody.velocity.x));
+        animator.SetFloat("Vertical Speed", rigidbody.velocity.y);
 
         if (groundDetector.OnGround) {
             airTime = 0f;
@@ -61,9 +66,12 @@ public class Character : MonoBehaviour
     }
 
     private void Jump(InputAction.CallbackContext ctx) {
-        Debug.Log("Jump!");
         if (groundDetector.OnGround || airTime < 0.25f) {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, rigidbody.velocity.y + jumpForce);
+
+            if (airTime < 0.01) {
+                animator.SetTrigger("Jump");
+            }
         }
     }
 
